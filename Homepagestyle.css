@@ -1,0 +1,146 @@
+
+body
+    {
+	  margin: 0;
+	  padding: 0;
+    }
+    .wrapper{
+		background: url(bckhome.JPG) no-repeat;
+		background-size: cover;
+		height: 100vh;
+		background-blend-mode: darken;
+	}
+	.navbar{
+		height: 50px;
+		width: 100%;
+		background: rgba(0,0,0,0.4);
+	}
+	.logo{
+		width: 55px;
+		height: auto;
+		padding: 10px, 50px;
+		
+	}
+	
+	.navbar ul{
+		float: right;
+		margin-right: 20px;
+	}
+	.navbar ul li{
+		list-style: none;
+		margin: 0 8px;
+		display: inline-block;
+		line-height: 40px;
+	}
+	.navbar ul li a{
+		text-decoration: none;
+		color: white;
+		padding: 6px 13px;
+		font-size: 17px;
+		transition: 0.4s;
+	}
+	
+	.navbar ul li a.active{
+		background: green;
+		border-radius: 2px;
+	}		
+	
+	.navbar ul li a:hover{
+		background: green;
+		border-radius: 2px;
+	}
+	.wrapper .text{
+		position: absolute;
+		top: 25%;
+		left: 27%;
+		right: 27%;
+		transform: transform(-50%, -50%);
+		user-select: none;
+	}
+	.text h1{
+		color: white;
+		font-size: 30;
+		font-weight: bold;
+		width: 350px;
+		text-align: center;
+	}
+	.text h2{
+		color: white;
+	}
+	.text .Viewcust{
+		margin: 15px 140px;
+	}
+	.Viewcust button{
+		height: 25px;
+		width: 150px;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		background: green;
+		border: 1px;
+		outline: none;
+		cursor: pointer;
+		border-radius: 12px;
+		transform: 0.5s
+	}
+	.Viewcust button:hover{
+		background: brown;
+	}
+	.wrapper .MediaBttns{
+		position:fixed;
+		height: 140vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		transform: translate(-290px, 0;);
+	}
+	.MediaBttns a{
+		color: #fff;
+		background:rgba(0,0,0,0.2);
+		font-size: 15px;
+		font-weight: 300;
+		text-decoration: none;
+		display: block;
+		margin: 2px;
+		padding: 10px;
+		width: 150px;
+		text-align: right;
+		border-radius: 25px;
+		transition: 0.5s;
+		transition-property: transform;
+		 
+	}
+	.MediaBttns a:hover{
+		transform: translate(70px,0);
+	}
+	.MediaBttns iter{
+		margin-left: 0px;
+		font-size: 13px;
+		width: 13px;
+		height: 13px;
+	}
+	.MediaBttns a:nth-child(1)iter{
+	   color: #1da0f0;
+	}
+	.MediaBttns a:nth-child(2)iter{
+	   color: #f80000;
+	}
+	.MediaBttns a:nth-child(3)iter{
+	   color: transparent;
+	   background-image: linear-gradient(45deg, #ffd9e, #e56969, #8a49a1);
+	   -webkit-background-clip:text;
+	   font-weight:300;
+	}
+	
+	footer
+	{   
+	    border: 1px;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align:center;
+		padding: 1px;
+		color: Black;
+	}
+	
